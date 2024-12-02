@@ -1,0 +1,68 @@
+body {
+  background-color: #83a39e;
+}
+
+/* Flexbox layout for the navbar */
+header {
+  display: flex;
+  flex-direction: column;  /* Stacks rows vertically */
+  height: 100vh;  /* Makes the header take up the full height of the viewport */
+  justify-content: space-between;  /* Spreads out the rows vertically */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+}
+
+
+.name {
+    color: white;
+    font-size: 100PX;
+    text-align:center;
+    
+}
+
+
+.bttn {
+    width: 55px;
+    height: 55px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+.bttn:hover{
+  width: 65px;
+  height:65pc;
+}
+
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.icons{
+  width: 30PX;
+  height: 30PX;
+}
+
+.p{
+  width: 10PX;
+  height: 10PX;
+}
+
+.Lato{
+  font-family: "Lato", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
